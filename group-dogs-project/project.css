@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: sticky;
+    top: 0;
+    padding: 0 50px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F2B98E;
+    border: 1px solid #9b7a60;
+    background-color: white;
+}
+.left{
+    display: flex;
+    align-items: center;
+    color: #F2B98E;
+}
+.left img{
+    width: 100px;
+}
+.center{
+    
+}
+.center ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+.center ul:active{
+    color: #d8935e;
+}
+#search{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: #F2B98E solid 2px;
+    color: #F2B98E;
+    position: relative;
+}
+#search-button{
+    position: absolute;
+    right: 399px;
+    border: none;
+    background-color: white;
+    color: #F2B98E;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #F2B98E;
+}
+.but1{
+    color: #F2B98E;
+    background-color: white;
+    font-size: 16px;
+}
+.but2{
+    background-color: #F2B98E;
+    color: white;
+    font-size: 16px;
+}
+.but1:hover{
+    color: #d8935e;
+}
+.but2:hover{
+    background-color: #d8935e;
+}
+.but2:active{
+    background-color: #dfc2ab;
+}
+.dog-card img{
+    width: 350px;
+    height: 280px;
+    border-radius: 50px 0 0 0;
+}
+.dog-card{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px 0 50px 0;
+    border: 2px solid #F2B98E;
+    margin-bottom: 30px;
+}
+.dog{
+    display: flex;
+}
+
+.like-button {
+    background-color: transparent;
+    border: none;
+    color: #262626;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.like-button.active {
+    color: #F2B98E;
+}
+.comment-input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 275px;
+    outline: none;
+}
+.comment-input::placeholder{
+    color: #F2B98E;
+    font-size: 16px;
+}

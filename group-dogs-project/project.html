@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://kit.fontawesome.com/4609f1c966.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="/dog logo.png" alt="">
+            <h3>PUPSTSAGRAM</h3>
+        </div>
+        <div class="center">
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Categories</li>
+                <input id="search" type="text" placeholder="Search For Breeds">
+                <button id="search-button"><i class="fa-solid fa-magnifying-glass searchy"></i></button>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="login.html"><button class="but1">Log In</button></a>
+            <button class="but2">Sign Up</button>
+        </div>
+    </nav>
+    <div id="dog-grid" style="
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+        padding: 50px 50px;
+    "></div>
+
+    <script src="project.js"></script>
+</body>
+</html>
